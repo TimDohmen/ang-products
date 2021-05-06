@@ -12,7 +12,7 @@ import { tap, catchError, map } from "rxjs/operators";
 })
 export class ProductService {
   // angular.json file for path
-  private productUrl = 'api/products/products.json'
+  private productUrl = 'https://angproductserver.herokuapp.com/api/products'
   constructor(private http: HttpClient) { }
 
   getProducts(): Observable<IProduct[]> {

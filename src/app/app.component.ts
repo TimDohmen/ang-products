@@ -6,7 +6,7 @@ import { Component } from "@angular/core";
   // linked template vs inline template
   template: /*html*/`
   <nav class='navbar navbar-expand navbar-light bg-light'>
-  <a class="navbar-brand">{{pageTitle}}</a>
+  <a class="navbar-brand"> <h3 class="mx-3"> {{pageTitle}}  </h3> </a>
   <ul class="nav nav-pills">
   <li><a class='nav-link' routerLink='/welcome'>Home</a></li>
   <li><a class='nav-link' routerLink='/products'>Product</a></li>
